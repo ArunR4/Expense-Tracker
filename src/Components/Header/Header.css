@@ -1,0 +1,49 @@
+.header-container{
+    width: 50%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    border-radius: 2%;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 2%;
+    box-shadow: 2.2px 4.3px 4.3px hsl(0deg 0% 0% / 0.43);
+}
+.header{
+    display: flex;
+    align-items: center;
+    margin:12px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 200%;
+    font-weight: 500;
+}
+
+.logo i{
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+}
+
+@media only screen and (max-width:1024px) {
+    .header-container{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .logo{
+        font-size: 28px;
+    }
+}
+@media only screen and (max-width:512px) {
+    .header-container{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .logo{
+        font-size: 24px;
+    }
+}

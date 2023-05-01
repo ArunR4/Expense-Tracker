@@ -1,0 +1,27 @@
+.expenseList{
+    margin: 6px 12px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.emt-state{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.emt-image{
+    height: 360px;
+}
+
+@media only screen and (max-width:1024) {
+    .emt-image{
+        height: 320px;
+    }
+}
+@media only screen and (max-width:512) {
+    .emt-image{
+        height: 240px;
+    }
+}

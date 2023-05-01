@@ -1,0 +1,71 @@
+.Topfold{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6px 12px;
+    padding: 12px 0px;
+}
+
+.home-topfold{
+    display: flex;
+    justify-content: space-between;
+    flex: 1 ;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.search-bar input{
+    width: 80%;
+    outline: none;
+    padding: 8px 0;
+    border: none;
+    margin-left: 8px;
+}
+.search-bar i{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.add-button{
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid white;
+    font-size: 18px;
+    padding: 2px 8px;
+    cursor: pointer;
+}
+
+.add-button i{
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+    cursor: pointer;
+}
+.lable{
+    cursor: pointer;
+}
+
+.add-top{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+.add-top-button{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+.add-top-button i{
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+}

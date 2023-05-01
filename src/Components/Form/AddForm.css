@@ -1,0 +1,102 @@
+.add-form{
+    margin:6px 12px;
+    padding: 24px;
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    min-height:60vh;
+}
+.form-item{
+    margin:12px 0px;
+    width:70%;
+    padding:4px;
+    border-radius:4px;
+    background-color:white;
+}
+.form-item lable{
+    background-color:lightgray;
+    padding:2px 12px;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.form-item input{
+    font-size:16px;
+    border:none;
+    outline:none;
+    width:70%;
+}
+
+.select-container{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
+.select{
+    position:relative;
+    width:40%;
+}
+.dropdwon{
+    display:flex;
+    justify-content:space-between;
+    background-color:white;
+    align-items:center;
+    margin: 12px 0px;
+    border-radius:6px;
+    padding:4px;
+    cursor: pointer;
+}
+.dropdwon i{
+    display:flex;
+    align-items:center;
+}
+.cat-container{
+    display:flex;
+    position:absolute;
+    width:100%;
+    flex-direction:column;
+    background-color:white;
+}
+
+.cat-item{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     padding: 8px 0px;
+     cursor: pointer;
+     border-radius: 2%;
+     border:1px solid black;
+}
+.cat-item i{
+    height: 32px;
+    margin-right: 20px;
+}
+.form-add{
+    display: flex;
+    justify-content: flex-end;
+}
+.form-add div{
+    display: flex;
+    border:1px solid black;
+    padding: 2px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.form-add div i{
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+}
+@media only screen and (max-width:1024) {
+    .form-item{
+        width:100%;
+    }
+    .form-item input{
+        width:70%;
+    }
+    .amount input{
+        width: 50% !important;
+    }
+    .dropdwon{
+        width: 80%;
+    }
+}
